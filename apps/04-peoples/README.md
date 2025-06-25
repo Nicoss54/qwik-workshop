@@ -13,12 +13,6 @@ Create a responsive web application that displays a list of people in card forma
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js (v16 or later)
-- npm or yarn
-- Basic knowledge of TypeScript and React/JSX
-
 ### Project Structure
 
 ```
@@ -157,7 +151,6 @@ The application should display a responsive grid of cards, with each card showin
 - Use Qwik's `routeLoader$` for data fetching
 - Implement proper TypeScript types for better developer experience
 - Make the UI responsive using CSS Grid or Flexbox
-- Add error handling for API requests
 - Consider accessibility when implementing the UI
 
 ## Troubleshooting
