@@ -16,7 +16,7 @@ export default component$(() => {
   return (
     <>
       <head>
-        <title>Boostrap Step</title>
+        <title>00-Bootstrap Solution Project</title>
         <meta />
         <link rel="manifest" href="/manifest.json" />
       </head>

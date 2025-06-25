@@ -1,8 +1,8 @@
 import { component$, useStyles$ } from '@builder.io/qwik';
 import { ServiceWorkerRegister } from '@builder.io/qwik-city';
 
-import globalStyles from './global.css?inline';
 import Counter from './counter';
+import globalStyles from './global.css?inline';
 
 export default component$(() => {
   /**
@@ -16,7 +16,7 @@ export default component$(() => {
   return (
     <>
       <head>
-        <title>Boostrap Step</title>
+        <title>01-Basics Reactivity Solution Project</title>
         <meta />
         <link rel="manifest" href="/manifest.json" />
       </head>

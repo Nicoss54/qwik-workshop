@@ -1,6 +1,7 @@
 import { component$, useStyles$ } from '@builder.io/qwik';
-import { ServiceWorkerRegister } from '@builder.io/qwik-city';
+import { QwikCityProvider, RouterOutlet, ServiceWorkerRegister } from '@builder.io/qwik-city';
 
+import { RouteHeader } from './core/components/route-header/route-header';
 import globalStyles from './global.css?inline';
 
 export default component$(() => {
@@ -13,16 +14,17 @@ export default component$(() => {
   useStyles$(globalStyles);
 
   return (
-    <>
+    <QwikCityProvider>
       <head>
-        <title>00-Bootstrap Project</title>
+        <title>02-Routing Solution Project</title>
         <meta />
         <link rel="manifest" href="/manifest.json" />
+        <RouteHeader />
       </head>
       <body lang="en">
-        It's time to create your first component and display your first hello world
+        <RouterOutlet />
         <ServiceWorkerRegister />
       </body>
-    </>
+    </QwikCityProvider>
   );
 });

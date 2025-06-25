@@ -1,6 +1,7 @@
 import { component$, useStyles$ } from '@builder.io/qwik';
 import { ServiceWorkerRegister } from '@builder.io/qwik-city';
 
+import Counter from './counter';
 import globalStyles from './global.css?inline';
 
 export default component$(() => {
@@ -15,12 +16,12 @@ export default component$(() => {
   return (
     <>
       <head>
-        <title>00-Bootstrap Project</title>
+        <title>02-Routing Project</title>
         <meta />
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body lang="en">
-        It's time to create your first component and display your first hello world
+        <Counter />
         <ServiceWorkerRegister />
       </body>
     </>
