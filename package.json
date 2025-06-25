@@ -5,8 +5,13 @@
   "scripts": {},
   "private": true,
   "dependencies": {
-    "express": "^4.21.2",
+    "@tailwindcss/vite": "^4.1.10",
     "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "flowbite": "^3.1.2",
+    "flowbite-qwik": "^1.1.0",
+    "flowbite-qwik-icons": "^0.1.9",
+    "tailwindcss": "^4.1.10",
     "underscore": "^1.13.7"
   },
   "devDependencies": {
