@@ -4,13 +4,16 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.21.2"
+  },
   "devDependencies": {
     "@builder.io/qwik": "~1.13.0",
     "@builder.io/qwik-city": "~1.13.0",
     "@eslint/js": "^9.8.0",
     "@nx/eslint": "21.2.1",
     "@nx/eslint-plugin": "21.2.1",
+    "@nx/express": "21.2.1",
     "@nx/js": "21.2.1",
     "@nx/vite": "21.2.1",
     "@nx/web": "21.2.1",
