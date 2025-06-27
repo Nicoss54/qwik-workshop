@@ -15,6 +15,10 @@ function reactivity() {
   return ['01-reactivity/transition_slide.md', '01-reactivity/introduction.md', '01-reactivity/advanced.md'];
 }
 
+function events() {
+  return ['02-events/transition_slide.md', '02-events/introduction.md', '02-events/lab.md'];
+}
+
 export function qwikWorkshop() {
-  return [...introduction(), ...bootstrap(), ...reactivity()];
+  return [...introduction(), ...bootstrap(), ...reactivity(), ...events()];
 }
