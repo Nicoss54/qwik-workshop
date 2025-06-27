@@ -11,6 +11,10 @@ function bootstrap() {
   ];
 }
 
+function reactivity() {
+  return ['01-reactivity/transition_slide.md', '01-reactivity/introduction.md', '01-reactivity/advanced.md'];
+}
+
 export function qwikWorkshop() {
-  return [...introduction(), ...bootstrap()];
+  return [...introduction(), ...bootstrap(), ...reactivity()];
 }
