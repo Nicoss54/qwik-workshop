@@ -19,6 +19,19 @@ function events() {
   return ['02-events/transition_slide.md', '02-events/introduction.md', '02-events/lab.md'];
 }
 
+function routing() {
+  return [
+    '03-routing/transition_slide.md',
+    '03-routing/introduction.md',
+    '03-routing/configuration.md',
+    '03-routing/lab-01.md',
+    '03-routing/redirection.md',
+    '03-routing/lab-02.md',
+    '03-routing/loader.md',
+    '03-routing/lab-03.md',
+  ];
+}
+
 export function qwikWorkshop() {
-  return [...introduction(), ...bootstrap(), ...reactivity(), ...events()];
+  return [...introduction(), ...bootstrap(), ...reactivity(), ...events(), ...routing()];
 }
