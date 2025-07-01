@@ -11,9 +11,9 @@
     "flowbite": "^3.1.2",
     "flowbite-qwik": "^1.1.0",
     "flowbite-qwik-icons": "^0.1.9",
+    "sfeir-school-theme": "^3.0.0",
     "tailwindcss": "^4.1.10",
-    "underscore": "^1.13.7",
-    "sfeir-school-theme": "^3.0.0"
+    "underscore": "^1.13.7"
   },
   "devDependencies": {
     "@builder.io/qwik": "~1.13.0",
@@ -30,17 +30,25 @@
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
-    "@types/node": "^18.16.1",
+    "@types/node": "18.16.9",
     "@vitest/ui": "^3.0.0",
+    "chokidar-cli": "^3.0.0",
+    "cpx": "^1.5.0",
     "eslint": "^9.8.0",
     "eslint-config-prettier": "^10.0.0",
     "eslint-plugin-prettier": "^5.5.0",
     "eslint-plugin-qwik": "~1.13.0",
     "jiti": "2.4.2",
+    "jsdom": "~22.1.0",
+    "live-server": "^1.2.1",
     "node-fetch": "~3.3.0",
     "nx": "21.2.1",
+    "parallelshell": "3.0.1",
     "prettier": "^2.6.2",
     "qwik-nx": "^3.2.1",
+    "sass": "^1.19.0",
+    "shelljs": "^0.8.5",
+    "swc-loader": "0.1.15",
     "tslib": "^2.3.0",
     "typescript": "~5.8.2",
     "typescript-eslint": "^8.29.0",
@@ -48,12 +56,6 @@
     "vite": "^6.0.0",
     "vite-tsconfig-paths": "~4.2.1",
     "vitest": "^3.0.0",
-    "webpack-cli": "^5.1.4",
-    "live-server": "^1.2.1",
-    "sass": "^1.19.0",
-    "shelljs": "^0.8.5",
-    "chokidar-cli": "^3.0.0",
-    "cpx": "^1.5.0",
-    "parallelshell": "3.0.1"
+    "webpack-cli": "^5.1.4"
   }
 }

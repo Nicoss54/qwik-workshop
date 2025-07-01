@@ -1,0 +1,9 @@
+{
+  "name": "hydration-optimistic-emulation-solution",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/hydration-optimistic-emulation-solution/src",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project hydration-optimistic-emulation-solution --web",
+  "targets": {}
+}

@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.counter-container {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.counter-button {
+  padding: 10px 15px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.spacer {
+  height: 800px;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
